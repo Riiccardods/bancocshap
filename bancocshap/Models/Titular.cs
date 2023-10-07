@@ -15,9 +15,11 @@ namespace bancocshap.Models
 
         public Titular(string nome, string cpf, string telefone)
         {
+
             Nome = nome;
             CPF = cpf;
             Telefone = telefone;
+
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace bancocshap.Models
 {
+
     internal class ContaBancaria
     {
         public Titular Titular { get; set; }
@@ -15,6 +16,7 @@ namespace bancocshap.Models
         {
             Titular = titular;
             Saldo = saldoAbertura;
+
         }
 
 
